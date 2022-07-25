@@ -1,0 +1,31 @@
+{
+    "name": "codecademy-theme",
+    "displayName": "codecademy-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "publisher": "jeffrey-mahoney",  
+    "author": {
+        "name": "Jeffrey Mahoney"
+    },
+    "license": "MIT",
+    "homepage": "github.com/codecademytheme",
+    "keywords": [
+        "vs code codecademy dark theme"
+    ],
+    "icon": "coding.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Codecademy Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Codecademy Dark -color-theme.json"
+            }
+        ]
+    }
+}
